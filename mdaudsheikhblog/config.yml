@@ -1,4 +1,4 @@
-baseURL: "https://mdaudsheikh.github.io/"
+baseURL: "https://www.mdaudsheikh.github.io/"
 title: '@mdaudsheikh'
 paginate: 5
 theme: PaperModX
@@ -41,7 +41,7 @@ params:
     tocopen: false
 
     assets:
-        # disableFingerprinting: true
+        disableFingerprinting: true
         favicon: "favicon.ico"
         favicon16x16: "favicon-32x32.png"
         favicon32x32: "favicon-32x32.png"

@@ -1,0 +1,4 @@
+[submodule "mdaudsheikhblog/public"]
+	path = mdaudsheikhblog/public
+	url = https://github.com/mdaudsheikh/mdaudsheikh.github.io.git
+	branch = main

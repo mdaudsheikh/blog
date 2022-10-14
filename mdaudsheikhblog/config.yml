@@ -1,7 +1,8 @@
-baseURL: "https://www.mdaudsheikh.github.io/"
+baseURL: "https://www.mdaudsheikh.github.io"
 title: '@mdaudsheikh'
 paginate: 5
 theme: PaperModX
+relativeURLs: true
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -71,7 +72,7 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "Making Tools to Help Engineers & Quants"
-        Content: "Hi, I'm Daud and Here are some of the stuff I do: \n
+        Content: "Hi, I'm Daud and I like to  \n
           - hello \n
           - hi"
 

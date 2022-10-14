@@ -2,7 +2,7 @@ baseURL: "https://www.mdaudsheikh.github.io"
 title: '@mdaudsheikh'
 paginate: 5
 theme: PaperModX
-relativeURLs: false
+relativeURLs: true
 
 enableRobotsTXT: true
 buildDrafts: false

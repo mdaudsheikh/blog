@@ -1,8 +1,7 @@
-baseURL: "https://www.mdaudsheikh.github.io"
+baseURL: "https://mdaudsheikh.github.io/"
 title: '@mdaudsheikh'
 paginate: 5
 theme: PaperModX
-relativeURLs: true
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -71,10 +70,19 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "Making Tools to Help Engineers & Quants"
-        Content: "Hi, I'm Daud and I like to  \n
-          - hello \n
-          - hi"
+        Title: "Exploring The World With Software"
+        Content: "Hi, I'm Daud. I like to make interesting projects which help satisfy my curiosity.\n
+        In this blog I want to explore topics and build projects related to mathematics, specifically statistics, \n
+        mechanical engineering, 3D graphics, and machine learning.\n
+
+        My goals for 2022 and 2023 are:
+
+        - Develop an opensource simple CAD application using threejs that enables quick prototyping \n
+         and has an easier user interface than solidWorks, Autodesk Inventor etc. \n
+
+        - Make a video series on YouTube about developing a crypto trading engine using Elixir \n
+
+        - Design and manufacture a mini-jet engine"
 
     socialIcons:
         - name: twitter
@@ -114,10 +122,10 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
-        - identifier: Portfolio
-          name: Portfolio
-          url: /portfolio/
-          weight: 10
+        # - identifier: Portfolio
+        #   name: Portfolio
+        #   url: /portfolio/
+        #   weight: 10
         - identifier: Blog
           name: Blog
           url: /blog/
@@ -126,10 +134,10 @@ menu:
           name: Essays
           url: /essays/
           weight: 30
-        - identifier: Archive
-          name: Archive
-          url: /archive/
-          weight: 40
+        # - identifier: Archive
+        #   name: Archive
+        #   url: /archive/
+        #   weight: 40
 
 # Read: https://github.com/reorx/hugo-PaperModX/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
